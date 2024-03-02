@@ -50,7 +50,7 @@ function updateSlider() {
     imageIndex = (imageIndex + 1) % images.length;
 }
 updateSlider();
-// Update the slider every 3 seconds
+// Update the slider every 3 seconds.
 setInterval(updateSlider, 3000);
 
 images[1].classList.add('next');
